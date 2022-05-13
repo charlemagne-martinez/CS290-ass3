@@ -1,0 +1,16 @@
+/* Change background color and text color and font */
+body 
+{
+    background-color: #121212;
+    /* #36393E */
+    color: whitesmoke;
+    font-family: monaco;
+
+}
+
+/* Wanted to space things out, so ended up with this: */
+/* for later use ig: https://medium.com/swlh/how-to-add-or-reduce-space-between-lines-of-text-using-just-html-and-css-bdd22708f971 */
+.spaceThingsOut
+{
+    line-height: 2em;
+}
