@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Code Blog </title>
+        <link href="blogStyle.css" rel="stylesheet" />
+
+
+
+    </head>
+
+    <body>
+        <h1> Code Blogs! :^) </h1>
+
+        <h2> Code Blog #1 </h2>
+        <h3> April 9, 2022 </h3>
+        <h2> <a href="https://charlemagne-martinez.github.io/CS290-ass1/"> Link to assignment #1 </a> </h2>
+        <ul class="spaceThingsOut" >
+            <li> A challenge I had was figuring out what image to choose of myself as I don't have much
+                 that show me clearly. I worked through this by going through my photos and ultimately settling
+                 on an image that seemed the most clear. Another challenge I had was figuring out how I wanted to 
+                 publish these pages to the web. I worked through them through a lot of referencing of the assignment
+                 prompt, and google searches. A third challenge was understanding the unix commands when publishing the 
+                 pages on the ENGR web space. I worked through this through a mix of the links provided in the prompt
+                 as well as some google searching as well. A fourth thing I encountered was figuring out how to change the 
+                 background color, the text, and how to space things out between the text. I worked through this by doing 
+                 some google searches, which have been very helpful. 
+            </li>
+
+            <li>
+                Something I learned from this assignment was how to publish pages to the web, so that it's not only 
+                viewable locally, but also live on the web. Another thing I learned was Unix permissions. I don't 
+                entirely understand it all but I think I at least somewhat do and at least understand enough to 
+                accomplish the needed permissions as specified. 
+
+            </li>
+
+            <li> 
+                The resources that were most helpful were the links within the assignment #1 prompt, the campuswire forum, 
+                and the notes I had from lectures. I used the campuswire forum by referring to it when I realized I had 
+                similar if not the same questions that others had previously asked. I used the links and the notes I had
+                from lectures whenever there was something I came across while doing the assignment that made me think of 
+                something I saw earlier that could possibly help in solving it. 
+
+            </li>
+
+
+        </ul>
+
+        <!---->
+
+        <h2> Code Blog #2 </h2>
+        <h3> April 25, 2022 </h3>
+        <ul class="spaceThingsOut">
+        
+            <li>
+                Something challenging about this assignment was figuring out how to get something to look like how I expected.
+                For example, there were numerous times where I envisioned what I wanted but just didn't know what exactly to 
+                do in order to get it look the way I wanted. I solved these problems through extensive google searches, 
+                referring to my notes, the lectures, and yeah. 
+            </li>
+
+            <li>
+                I learned a lot about how to apply the CSS concepts that we went over during the past few weeks, as well as 
+                a concepts that weren't exactly taught but were things I saw from my google searches that seemed to solve
+                what I wanted to do. Yes, there were indeed some insights that I picked up from doing this assignment. 
+                As I continued to do this assignment, some of the concepts that I wasn't understanding so much earlier 
+                were starting to all come together, little by little. 
+            </li>
+
+            <li>
+                The resources that were helpful are as follows: GOOGLE searches, lecture recordings, lecture notes, readings,
+                notes I took myself, campuswire. I used google EXTENSIVELY when I wanted to find an answer to a question I had.
+                I used the lecture recordings to reinforce specific concepts and especially those that Hess mentioned could be
+                beneficial when working on this assignment. I used the lecture notes and readings assigned as well to clarify 
+                things. I used the notes that I took as well (which is code that I followed during lecture) to find any comments
+                I had that mentioned how something could be useful. Finally, I used campuswire to see if there was something that
+                someone had previously asked about and was something I was wondering about. 
+            </li>
+
+            <li>
+                Although there were definitely more than two things I googled for this assignment, one in particular was
+                about flexboxes and flex items. Another thing was how to make something pop out (the add twit button).
+                As mentioned, I used google for a lot more different searches but these in particular are just a few things
+                I did search. 
+            </li>
+
+
+        <!---->
+
+        <h2> Code Blog #3 </h2>
+        <h3> May 9, 2022 </h3>
+
+        <ul class="spaceThingsOut">
+            <li>
+                There were some challenging parts of this assignment indeed. Some of them include saving the content
+                of a newly created twit after doing a search query. I solved this by having a call to a array making 
+                function I initally created to store the twit content and authors of the OG 8 twits. I ended up modifying
+                it and having conditionals that would run based on parameters I sent that would create a temporary array, 
+                copy the content to that, setting the array I return equal to that temp array, and then setting the last index
+                of that array equal to the twit text and author input of the user. Another challenging part was the live search.
+                I ended up using a pretty chunk of code I had for two other functions that dealt with removing any remaining twits
+                and essentially calling createTwit() a certain amount of times based on the length of the twitTextArray I made, 
+                which was updated every time a twit was created, to ensure I get the right length. I also changed an 'if' to a 'while'
+                and shifted some things around which seemed to help. There are also several other things, but these were just a few. 
+            </li>
+
+
+            <li>
+                I learned A LOT about how Javascript works. One thing in particular is that I learned more about events and 
+                how that can be used in several ways. I also learned that you can apparently set the value of any index
+                of an array at any time, and the array will seemingly seemingly grow in size based on that. This was something
+                I searched about while editing my makeArray() function, and something I found from this stackoverflow: 
+                https://stackoverflow.com/questions/33903514/change-array-size-by-just-adding-element-and-no-push-javascript.
+                I also enforced my understanding of how having a variable set equal to "getElementsByClassName" creates an 
+                HTML collection that's live and automatically changes if anything happens to the DOM. This led me to deciding
+                to create arrays that I continuously update so that I can keep track of the twit texts and author. There are
+                things in Javascript that I'm not so used to as much yet, but yeah. 
+            </li>
+
+
+            <li>
+                Resources I used included: lecture recordings, lecture notes I had, readings from class website,
+                campuswire, extensive google searching (a lot about how things in Javascript work). 
+            </li>
+
+
+            <li>
+                One thing I had to Google for this assignment was how getElementsByClassName worked because from my 
+                experience in this assignment, I couldn't rely on that to stay the same size as its an HTML collection and
+                changes as the DOM changes. This was something the lecture notes mentioned, but google searching this 
+                definitely solidified my understanding of it, and led me to deciding to use two arrays to keep track of
+                twit text and authors as mentioned above. Another thing I searched was the includes() method, as this was
+                something I ended up using for the for loop that would loop through the twits and decide which ones to remove
+                from the DOM. This was a method I saw from a site and ended up proving helpful. There were a lot more things
+                I did google searches for, but these two were ones in particular I wanted to point out. 
+            </li>
+
+            <li> DAS IT</li>
+        </ul>
+
+
+
+    </body>
+
+
+
+
+
+</html>
